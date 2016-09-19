@@ -53,7 +53,7 @@ var soundSource, concertHallBuffer;
 
 ajaxRequest = new XMLHttpRequest();
 
-ajaxRequest.open('GET', 'http://mdn.github.io/voice-change-o-matic/audio/concert-crowd.ogg', true);
+ajaxRequest.open('GET', '//mdn.github.io/voice-change-o-matic/audio/concert-crowd.ogg', true);
 
 ajaxRequest.responseType = 'arraybuffer';
 
